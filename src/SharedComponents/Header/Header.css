@@ -1,0 +1,19 @@
+.header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px solid;
+}
+.header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.profile-image {
+  height: 100%;
+  display: block;
+  width: 50px;
+  object-fit: contain;
+  cursor: pointer;
+}
